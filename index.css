@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: #bdb8df;
+    color: navy;
+    height: 100vh;
+    display: flex;
+    font-family: 'Assistant', sans-serif;
+    /*font-family: 'Pavanam', sans-serif;*/
+
+}
+
+/* SECTION ABOUT-ME */
+.about-me {
+    width: 25%;
+    margin: 0 1.2% 0 1.2%;
+    padding: 2% 1% 2% 2%;
+}
+
+    .my-photo {
+    width: 100%;
+    }
+
+    h2 {
+    font-family: 'Yesteryear', cursive;
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 13rem;
+    }
+
+    h1 {
+    font-size: 2.4rem;
+    font-style: italic;
+    }
+
+    .about {
+        font-size: 1.4rem;
+        padding: 1rem 0 0 0;
+    }
+
+    .contact {
+        padding: 3rem 0 0 0;
+    }
+
+        h3 {
+            font-family: 'Yesteryear', cursive;
+            font-size: 2.8rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-top: 5%;
+        }
+
+            .contact-item {
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+
+                a {
+                    text-decoration: none;
+                    color: rgb(65, 45, 252);
+                }
+
+/* SECTION SKILL */
+.skill {
+    width: 25%;
+    margin: 0 2% 0 2%;
+    padding: 2% 1% 1% 2%;
+}
+
+    .skill-list {
+        padding-top: 5%;
+    }
+
+        .skill-item {
+            display: flex;
+            padding-top: 5%;
+        }
+
+            .skill-icon {
+                height: 70px;
+                }
+
+            .skill-bar {
+                padding: 5% 0 0 5%;
+                height: 35px;
+            }
+
+/* SECTION EXPERIENCE */
+.experience {
+    width: 25%;
+    margin: 0 2% 0 2%;
+    padding: 2% 1% 1% 2%;
+}
+
+    .proj-list {
+        padding-top: 0;
+        font-size: 1.2rem;
+    }
+
+    .exp-title {
+        padding-top: 7%;
+    }
+
+    .exp-list {
+        padding-top: 1%;
+        font-size: 1.2rem;
+    }
+
+        .exp-item {
+            padding-top: 5%;
+        }
+
+                h4 {
+                    font-style: italic;
+                    
+                }
+
+/* SECTION EDUCATION */
+.education {
+    width: 25%;
+    margin: 0 2% 0 2%;
+    padding: 2% 2% 1% 2%;
+}
+
+    .edu-list{
+        padding-top: 0;
+        font-size: 1.2rem;
+    }
+        .edu-item {
+            padding-top: 2%;
+        }
+
+    .lang-title {
+        padding-top: 7%;
+    }
+
+        .lang-item {
+            display: flex;
+            padding-top: 2%;
+        }
+
+            .lang-icon {
+                height: 50px;
+            }
+
+            .lang-bar {
+                padding: 2% 0 0 5%;
+                height: 35px;
+            }
+
+    .hob-title {
+        padding-top: 7%;
+    }
