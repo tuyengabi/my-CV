@@ -161,3 +161,12 @@ main {
     .hob-title {
         padding-top: 7%;
     }
+
+    .hob-section {
+        display: flex;
+    }
+        
+        .hob-icon {
+            height: 3.2rem;
+            padding: 0 5rem 0.5rem 0;
+        }
