@@ -15,12 +15,12 @@ main {
 /* SECTION ABOUT-ME */
 .about-me {
     width: 25%;
-    margin: 0 1.2% 0 1.2%;
+    margin: 1% 0 0 3%;
     padding: 2% 1% 2% 2%;
 }
 
     .my-photo {
-    width: 100%;
+    width: 65%;
     }
 
     h2 {
