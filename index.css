@@ -55,9 +55,15 @@ main {
         }
 
             .contact-item {
+                display: flex;
                 font-size: 1.2rem;
                 font-weight: bold;
             }
+
+                .contact-icon {
+                    height: 1.7rem;
+                    padding-right: 0.7rem;
+                }
 
                 a {
                     text-decoration: none;
