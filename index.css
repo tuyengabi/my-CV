@@ -7,7 +7,7 @@ main {
     color: navy;
     height: 100vh;
     display: flex;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     /*font-family: 'Pavanam', sans-serif;*/
 
 }
@@ -24,19 +24,18 @@ main {
     }
 
     h2 {
-    font-family: 'Yesteryear', cursive;
-    font-size: 2.5rem;
-    color: white;
-    margin-left: 13rem;
+        font-family: 'Yesteryear', cursive;
+        font-size: 3rem;
+        color: rgba(255,255,255,0.5);
+        margin-left: 12rem;
     }
 
     h1 {
-    font-size: 2.4rem;
-    font-style: italic;
+        font-size: 2.2rem;    
     }
 
     .about {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         padding: 1rem 0 0 0;
     }
 
