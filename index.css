@@ -23,7 +23,7 @@ main {
 
 .my-photo {
     width: 55%;
-    box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);
+    /*box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);*/
 }
 
 h2 {
@@ -94,15 +94,14 @@ a {
 
 .skill-item {
     display: flex;
-    padding-top: 5%;
 }
 
 .skill-icon {
-    height: 70px;
+    height: 56px;
 }
 
 .skill-bar {
-    padding: 5% 0 0 5%;
+    padding: 2.5% 0 0 5%;
     height: 35px;
 }
 
