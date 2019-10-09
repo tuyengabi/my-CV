@@ -26,14 +26,14 @@ main {
 
     h2 {
         font-family: 'Yesteryear', cursive;
-        font-size: 3rem;
-        color: rgba(102, 85, 255, 0.5);
-        margin-left: 12rem;
+        font-size: 4rem;
+        color: rgba(102, 85, 255, 0.3);
+        text-align: right;
     }
 
     h1 {
-        font-size: 2.2rem;
-        color: rgba(255,255,255,0.7);
+        font-size: 1.7rem;
+        color: #bdb8df;
     }
 
     .about {
@@ -52,7 +52,7 @@ main {
         }
 
         .contact-title {
-            color: rgba(255,255,255,0.5);
+            color: #958fbb;
         }
 
         ul {
