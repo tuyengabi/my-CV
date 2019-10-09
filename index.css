@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
 }
+
 main {
     background-color: #bdb8df;
     color: navy;
     height: 100vh;
     display: flex;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 
+
 /* SECTION ABOUT-ME */
+
 .about-me {
     width: 28%;
     margin: 0 0 0 0;
@@ -19,162 +21,167 @@ main {
     background-color: navy;
 }
 
-    .my-photo {
-        width: 55%;
-        box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);
-    }
+.my-photo {
+    width: 55%;
+    box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);
+}
 
-    h2 {
-        font-family: 'Great Vibes', cursive;
-        font-size: 5rem;
-        color: rgba(0, 0, 255, 0.3);
-        text-align: right;
-    }
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    color: rgba(0, 0, 255, 0.3);
+    text-align: right;
+}
 
-    h1 {
-        font-size: 1.7rem;
-        color: #bdb8df;
-    }
+h1 {
+    font-size: 1.7rem;
+    color: #bdb8df;
+}
 
-    .about {
-        font-size: 1.3rem;
-        padding: 1rem 0 0 0;
-        color: rgba(255,255,255,0.6);
-    }
+.about {
+    font-size: 1.3rem;
+    padding: 1rem 0 0 0;
+    color: rgba(255, 255, 255, 0.6);
+}
 
-    .contact {
-        padding: 3rem 0 0 0;
-    }    
+.contact {
+    padding: 3rem 0 0 0;
+}
 
-        h3 {
-            font-family: 'Great Vibes', cursive;
-            font-size: 2.8rem;
-        }
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8rem;
+}
 
-        .contact-title {
-            color: #958fbb;
-        }
+.contact-title {
+    color: #958fbb;
+}
 
-        ul {
-            list-style-type: none;
-            padding-top: 5%;
-        }
+ul {
+    list-style-type: none;
+    padding-top: 5%;
+}
 
-            .contact-item {
-                display: flex;
-                font-size: 1.2rem;
-                font-weight: bold;
-                color: rgba(255,255,255,0.6);
-            }
+.contact-item {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+}
 
-                .contact-icon {
-                    height: 1.7rem;
-                    padding-right: 0.7rem;
-                }
+.contact-icon {
+    height: 1.7rem;
+    padding-right: 0.7rem;
+}
 
-                a {
-                    text-decoration: none;
-                    color: rgb(65, 45, 252);
-                }
+a {
+    text-decoration: none;
+    color: rgb(65, 45, 252);
+}
+
 
 /* SECTION SKILL */
+
 .skill {
     width: 20%;
     margin: 0 2% 0 2%;
     padding: 2% 1% 1% 2%;
 }
 
-    .skill-list {
-        padding-top: 5%;
-    }
+.skill-list {
+    padding-top: 5%;
+}
 
-        .skill-item {
-            display: flex;
-            padding-top: 5%;
-        }
+.skill-item {
+    display: flex;
+    padding-top: 5%;
+}
 
-            .skill-icon {
-                height: 70px;
-                }
+.skill-icon {
+    height: 70px;
+}
 
-            .skill-bar {
-                padding: 5% 0 0 5%;
-                height: 35px;
-            }
+.skill-bar {
+    padding: 5% 0 0 5%;
+    height: 35px;
+}
+
 
 /* SECTION EXPERIENCE */
+
 .experience {
     width: 30%;
     margin: 0 0.5% 0 0.5%;
     padding: 2% 1% 1% 2%;
 }
 
-    .proj-list {
-        padding-top: 0;
-        font-size: 1.2rem;
-    }
+.proj-list {
+    padding-top: 0;
+    font-size: 1.2rem;
+}
 
-    .exp-title {
-        padding-top: 7%;
-    }
+.exp-title {
+    padding-top: 7%;
+}
 
-    .exp-list {
-        padding-top: 1%;
-        font-size: 1.2rem;
-    }
+.exp-list {
+    padding-top: 1%;
+    font-size: 1.2rem;
+}
 
-        .exp-item {
-            padding-top: 5%;
-        }
+.exp-item {
+    padding-top: 5%;
+}
 
-           
+.info {
+    padding-left: 1rem;
+}
 
-            .info {
-                padding-left: 1rem;
-            }
 
 /* SECTION EDUCATION */
+
 .education {
     width: 22%;
     margin: 0 2% 0 2%;
     padding: 2% 2% 1% 2%;
 }
 
-    .edu-list{
-        padding-top: 0;
-        font-size: 1.2rem;
-    }
-        .edu-item {
-            padding-top: 2%;
-        }
+.edu-list {
+    padding-top: 0;
+    font-size: 1.2rem;
+}
 
-    .lang-title {
-        padding-top: 7%;
-    }
+.edu-item {
+    padding-top: 2%;
+}
 
-        .lang-item {
-            display: flex;
-            padding-top: 2%;
-        }
+.lang-title {
+    padding-top: 7%;
+}
 
-            .lang-icon {
-                height: 50px;
-            }
+.lang-item {
+    display: flex;
+    padding-top: 2%;
+}
 
-            .lang-bar {
-                padding: 2% 0 0 5%;
-                height: 35px;
-            }
+.lang-icon {
+    height: 50px;
+}
 
-    .hob-title {
-        padding-top: 7%;
-    }
+.lang-bar {
+    padding: 2% 0 0 5%;
+    height: 35px;
+}
 
-    .hob-section {
-        display: flex;
-    }
-        
-        .hob-icon {
-            height: 3.2rem;
-            padding: 0 5rem 0.5rem 0;
-        }
+.hob-title {
+    padding-top: 7%;
+}
+
+.hob-section {
+    display: flex;
+}
+
+.hob-icon {
+    height: 3.2rem;
+    padding: 0 5rem 0.5rem 0;
+}
