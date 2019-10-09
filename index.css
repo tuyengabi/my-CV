@@ -8,26 +8,26 @@ main {
     height: 100vh;
     display: flex;
     font-family: 'Source Sans Pro', sans-serif;
-    /*font-family: 'Pavanam', sans-serif;*/
 
 }
 
 /* SECTION ABOUT-ME */
 .about-me {
-    width: 25%;
+    width: 28%;
     margin: 0 0 0 0;
-    padding: 3% 2% 2% 5%;
+    padding: 3% 4% 2% 4%;
     background-color: navy;
 }
 
     .my-photo {
-    width: 65%;
+        width: 55%;
+        box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);
     }
 
     h2 {
-        font-family: 'Yesteryear', cursive;
-        font-size: 4rem;
-        color: rgba(102, 85, 255, 0.3);
+        font-family: 'Great Vibes', Helvetica, sans-serif;
+        font-size: 5rem;
+        color: rgba(0, 0, 255, 0.3);
         text-align: right;
     }
 
@@ -47,7 +47,7 @@ main {
     }    
 
         h3 {
-            font-family: 'Yesteryear', cursive;
+            font-family: 'Great Vibes', Helvetica, sans-serif;
             font-size: 2.8rem;
         }
 
@@ -79,7 +79,7 @@ main {
 
 /* SECTION SKILL */
 .skill {
-    width: 24%;
+    width: 20%;
     margin: 0 2% 0 2%;
     padding: 2% 1% 1% 2%;
 }
@@ -104,7 +104,7 @@ main {
 
 /* SECTION EXPERIENCE */
 .experience {
-    width: 27%;
+    width: 30%;
     margin: 0 0.5% 0 0.5%;
     padding: 2% 1% 1% 2%;
 }
@@ -127,10 +127,7 @@ main {
             padding-top: 5%;
         }
 
-            h4 {
-                font-style: italic;
-                
-            }
+           
 
             .info {
                 padding-left: 1rem;
@@ -138,7 +135,7 @@ main {
 
 /* SECTION EDUCATION */
 .education {
-    width: 24%;
+    width: 22%;
     margin: 0 2% 0 2%;
     padding: 2% 2% 1% 2%;
 }
