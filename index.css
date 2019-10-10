@@ -1,199 +1,303 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    background-color: #bdb8df;
-    color: navy;
-    height: 100vh;
-    display: flex;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-/* SECTION ABOUT-ME */
-
-.about-me {
-    width: 28%;
-    margin: 0 0 0 0;
-    padding: 3% 4% 2% 4%;
-    background-color: navy;
-}
-
-.my-photo {
-    width: 55%;
-    /*box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);*/
-}
-
-h2 {
-    font-family: 'Great Vibes', cursive;
-    font-size: 4rem;
-    color: rgba(0, 0, 255, 0.3);
-    text-align: center;
-}
-
-h1 {
-    font-size: 1.7rem;
-    color: #bdb8df;
-}
-
-.caption {
-    padding: 1rem 0 0 0;
-    color: rgba(0, 0, 255, 0.6);
-    font-size: 1.6rem;
-    font-style: italic;
-    text-align: end;
-}
-
-.about {
-    font-size: 1.3rem;
-    padding: 1rem 0 0 0;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.contact {
-    padding: 3rem 0 0 0;
-}
-
-h3 {
-    font-family: 'Great Vibes', cursive;
-    font-size: 2.2rem;
-}
-
-.contact-title {
-    color: #958fbb;
-}
-
-ul {
-    list-style-type: none;
-    padding-top: 5%;
-}
-
-.contact-item {
-    display: flex;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.contact-icon {
-    height: 1.7rem;
-    padding-right: 0.7rem;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(65, 45, 252);
-}
-
-
-/* SECTION SKILL */
-
-.skill {
-    width: 20%;
-    margin: 0 2% 0 2%;
-    padding: 2% 1% 1% 2%;
-}
-
-.skill-list {
-    padding-top: 5%;
-}
-
-.skill-item {
-    display: flex;
-}
-
-.skill-icon {
-    height: 56px;
-}
-
-.skill-bar {
-    padding: 2.5% 0 0 5%;
-    height: 35px;
-}
-
-.hide {
-    display: none;
-}
-
-
-/* SECTION EXPERIENCE */
-
-.experience {
-    width: 30%;
-    margin: 0 0.5% 0 0.5%;
-    padding: 2% 1% 1% 2%;
-}
-
-.proj-list {
-    padding-top: 0;
-    font-size: 1.2rem;
-}
-
-.exp-title {
-    padding-top: 7%;
-}
-
-.exp-list {
-    padding-top: 1%;
-    font-size: 1.2rem;
-}
-
-.exp-item {
-    padding-top: 5%;
-}
-
-.info {
-    padding-left: 5%;
-    border-left: 1px solid navy;
-}
-
-
-/* SECTION EDUCATION */
-
-.education {
-    width: 22%;
-    margin: 0 2% 0 2%;
-    padding: 2% 2% 1% 2%;
-}
-
-.edu-list {
-    padding-top: 0;
-    font-size: 1.2rem;
-}
-
-.edu-item {
-    padding-top: 2%;
-}
-
-.lang-title {
-    padding-top: 7%;
-}
-
-.lang-item {
-    display: flex;
-    padding-top: 2%;
-}
-
-.lang-icon {
-    height: 50px;
-}
-
-.lang-bar {
-    padding: 2% 0 0 5%;
-    height: 35px;
-}
-
-.hob-title {
-    padding-top: 7%;
-}
-
-.hob-section {
-    display: flex;
-}
-
-.hob-icon {
-    height: 3.2rem;
-    padding: 0 5rem 0.5rem 0;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    main {
+        background-color: #bdb8df;
+        color: navy;
+        display: flex;
+        height: 100vh;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    @media screen and (min-width: 0px) and (max-width: 900px) {
+        main {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    /* SECTION ABOUT-ME */
+    
+    .about-me {
+        width: 28%;
+        margin: 0 0 0 0;
+        padding: 3% 4% 2% 4%;
+        background-color: navy;
+    }
+    
+    .my-photo {
+        width: 55%;
+        /*box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);*/
+    }
+    
+    h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 4rem;
+        color: rgba(0, 0, 255, 0.3);
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 1.7rem;
+        color: #bdb8df;
+    }
+    
+    .caption {
+        padding: 1rem 0 0 0;
+        color: rgba(0, 0, 255, 0.6);
+        font-size: 1.6rem;
+        font-style: italic;
+        text-align: end;
+    }
+    
+    .about {
+        font-size: 1.3rem;
+        padding: 1rem 0 0 0;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .contact {
+        padding: 3rem 0 0 0;
+    }
+    
+    h3 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 2.2rem;
+    }
+    
+    .contact-title {
+        color: #958fbb;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding-top: 5%;
+    }
+    
+    .contact-item {
+        display: flex;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .contact-icon {
+        height: 1.7rem;
+        padding-right: 0.7rem;
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(65, 45, 252);
+    }
+    
+    @media screen and (min-width: 0px) and (max-width: 900px) {
+        .about-me {
+            height: auto;
+            width: auto;
+            padding: 50px 30px 50px 30px;
+        }
+        .my-photo {
+            width: 45%;
+        }
+        h2 {
+            font-size: 3.2rem;
+        }
+        h1 {
+            font-size: 1.6rem;
+        }
+        .caption {
+            font-size: 1.4rem;
+        }
+        .about {
+            font-size: 1rem;
+        }
+    }
+    /* SECTION SKILL */
+    
+    .skill {
+        width: 20%;
+        margin: 0 2% 0 2%;
+        padding: 2% 1% 1% 2%;
+    }
+    
+    .skill-list {
+        padding-top: 5%;
+    }
+    
+    .skill-item {
+        display: flex;
+    }
+    
+    .skill-icon {
+        height: 56px;
+    }
+    
+    .skill-bar {
+        padding: 2.5% 0 0 5%;
+        height: 35px;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    @media screen and (min-width: 0px) and (max-width: 900px) {
+        .skill {
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 100px 0 50px 0;
+            margin: auto;
+        }
+        .skill-list {
+            padding: 30px;
+        }
+        .skill-item {
+            margin-left: -20px;
+        }
+        .skill-icon {
+            height: 46px;
+        }
+        .skill-bar {
+            height: 28px;
+        }
+    }
+    /* SECTION EXPERIENCE */
+    
+    .experience {
+        width: 30%;
+        margin: 0 0.5% 0 0.5%;
+        padding: 2% 1% 1% 2%;
+    }
+    
+    .proj-list {
+        padding-top: 0;
+        font-size: 1.2rem;
+    }
+    
+    .exp-title {
+        padding-top: 7%;
+    }
+    
+    .exp-list {
+        padding-top: 1%;
+        font-size: 1.2rem;
+    }
+    
+    .exp-item {
+        padding-top: 5%;
+    }
+    
+    .info {
+        padding-left: 5%;
+        border-left: 1px solid navy;
+    }
+    
+    @media screen and (min-width: 0px) and (max-width: 900px) {
+        .experience {
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px 0 50px 0;
+            margin: auto;
+        }
+        .proj-list {
+            padding: 0 30px 0 30px;
+        }
+        .exp-title {
+            padding-top: 100px;
+        }
+        .exp-item {
+            padding: 20px 50px 0 50px;
+        }
+    }
+    /* SECTION EDUCATION */
+    
+    .education {
+        width: 22%;
+        margin: 0 2% 0 2%;
+        padding: 2% 2% 1% 2%;
+    }
+    
+    .edu-list {
+        padding-top: 0;
+        font-size: 1.2rem;
+    }
+    
+    .edu-item {
+        padding-top: 2%;
+    }
+    
+    .lang-title {
+        padding-top: 7%;
+    }
+    
+    .lang-item {
+        display: flex;
+        padding-top: 2%;
+    }
+    
+    .lang-icon {
+        height: 50px;
+    }
+    
+    .lang-bar {
+        padding: 2% 0 0 5%;
+        height: 35px;
+    }
+    
+    .hob-title {
+        padding-top: 7%;
+    }
+    
+    .hob-section {
+        display: flex;
+    }
+    
+    .hob-icon {
+        height: 3.2rem;
+        padding: 0 5rem 0.5rem 0;
+    }
+    
+    @media screen and (min-width: 0px) and (max-width: 900px) {
+        .education {
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px 0 50px 0;
+            margin: auto;
+        }
+        .edu-list {
+            padding: 30px 30px 0 30px;
+        }
+        .lang-title {
+            padding-top: 100px;
+        }
+        .lang-item {
+            margin-left: -20px;
+        }
+        .lang-icon {
+            height: 46px;
+        }
+        .lang-bar {
+            height: 28px;
+        }
+        .hob-title {
+            padding-top: 100px;
+        }
+        .hob-section {
+            padding-top: 30px;
+        }
+    }
