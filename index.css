@@ -93,6 +93,48 @@
         color: rgb(65, 45, 252);
     }
     
+    @media screen and (min-width: 1367px) and (max-width: 1600px) {
+        .about-me {
+            padding: 40px 40px 0 40px;
+        }
+        h2 {
+            font-size: 3.2rem;
+        }
+        .caption {
+            font-size: 1.4rem;
+        }
+        .about {
+            font-size: 1.1rem;
+        }
+    }
+    
+    @media screen and (min-width: 901px) and (max-width: 1366px) {
+        .about-me {
+            padding: 30px 30px 0 30px;
+        }
+        .my-photo {
+            width: 45%;
+        }
+        h2 {
+            font-size: 2.8rem;
+        }
+        h1 {
+            font-size: 1.3rem;
+        }
+        h3 {
+            font-size: 2rem;
+        }
+        .caption {
+            font-size: 1.3rem;
+        }
+        .about {
+            font-size: 1.1rem;
+        }
+        .contact-item {
+            font-size: 1.1rem;
+        }
+    }
+    
     @media screen and (min-width: 0px) and (max-width: 900px) {
         .about-me {
             height: auto;
@@ -142,6 +184,31 @@
     
     .hide {
         display: none;
+    }
+    
+    @media screen and (min-width: 1367px) and (max-width: 1600px) {
+        .skill {
+            padding: 50px 0 0 10px;
+        }
+        .skill-icon {
+            height: 50px;
+        }
+        .skill-bar {
+            padding-top: 10px;
+            height: 30px;
+        }
+    }
+    
+    @media screen and (min-width: 901px) and (max-width: 1366px) {
+        .skill {
+            padding: 20px 0 0 0;
+        }
+        .skill-icon {
+            height: 50px;
+        }
+        .skill-bar {
+            height: 28px;
+        }
     }
     
     @media screen and (min-width: 0px) and (max-width: 900px) {
@@ -197,6 +264,30 @@
     .info {
         padding-left: 5%;
         border-left: 1px solid navy;
+    }
+    
+    @media screen and (min-width: 1367px) and (max-width: 1600px) {
+        .experience {
+            padding: 50px 0 0 10px;
+        }
+        .proj-list {
+            font-size: 1.1rem;
+        }
+        .exp-list {
+            font-size: 1.1rem;
+        }
+    }
+    
+    @media screen and (min-width: 901px) and (max-width: 1366px) {
+        .experience {
+            padding: 20px 0 0 20px;
+        }
+        .proj-list {
+            font-size: 1rem;
+        }
+        .exp-list {
+            font-size: 1rem;
+        }
     }
     
     @media screen and (min-width: 0px) and (max-width: 900px) {
@@ -266,6 +357,42 @@
     .hob-icon {
         height: 3.2rem;
         padding: 0 5rem 0.5rem 0;
+    }
+    
+    @media screen and (min-width: 1367px) and (max-width: 1600px) {
+        .education {
+            padding: 50px 20px 0 0;
+            font-size: 1.1rem;
+        }
+        .lang-title {
+            padding-top: 30px;
+        }
+        .lang-icon {
+            height: 46px;
+        }
+        .lang-bar {
+            padding-top: 8px;
+            height: 30px;
+        }
+    }
+    
+    @media screen and (min-width: 901px) and (max-width: 1366px) {
+        .education {
+            padding: 20px 0 0 20px;
+        }
+        .edu-item {
+            font-size: 1rem;
+        }
+        .lang-icon {
+            height: 46px;
+        }
+        .lang-bar {
+            padding-top: 8px;
+            height: 28px;
+        }
+        .hob-icon {
+            height: 40px;
+        }
     }
     
     @media screen and (min-width: 0px) and (max-width: 900px) {
