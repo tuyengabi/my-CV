@@ -1,6 +1,7 @@
     * {
         margin: 0;
         padding: 0;
+        font-size: 62,5%;
     }
     
     main {
@@ -42,10 +43,10 @@
         font-size: 5rem;
         transform: rotate(-90deg);
         color: rgba(252, 114, 96, 0.8);
+        text-align: center;
         /*background: -webkit-linear-gradient(230deg, #bdb8df 12%, #1c2bffad, #d453fcf3 70%, #bdb8df 90%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;*/
-        text-align: center;
     }
     /*span {
         font-size: 5rem;
@@ -138,35 +139,44 @@
     
     @media screen and (min-width: 901px) and (max-width: 1366px) {
         .about-me {
-            padding: 30px 30px 0 30px;
+          padding: 20px 20px 0 20px;
         }
         .my-photo {
             width: 45%;
         }
         h2 {
             position: absolute;
-            left: 120px;
-            top: 90px;
-            font-size: 4rem;
+            left: 125px;
+            top: 80px;
+            font-size: 2.6rem;
         }
         span {
             font-size: 3.6rem;
         }
         h1 {
-            padding-top: 0.8rem;
-            font-size: 1.8rem;
+            padding-top: 0.4rem;
+            font-size: 1.2rem;
         }
         h3 {
-            font-size: 2rem;
+            font-size: 1.4rem;
         }
         .caption {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
         .about {
             font-size: 1rem;
         }
+        .contact {
+          padding: 0 0 0 0;
+        }
+        .contact-title {
+          display: none;
+        }
         .contact-item {
-            font-size: 1rem;
+            font-size: 0.9rem;
+        }
+        .social-icon {
+            height: 30px;
         }
     }
     
@@ -181,16 +191,16 @@
         }
         h2 {
             position: absolute;
-            left: 120px;
-            top: 90px;
-            font-size: 4rem;
+            left: 30vw;
+            top: 22vw;
+            font-size: 3rem;
         }
         span {
             font-size: 4rem;
         }
         h1 {
             padding-top: 0.8rem;
-            font-size: 1.8rem;
+            font-size: 1.4rem;
         }
         .caption {
             font-size: 1.1rem;
