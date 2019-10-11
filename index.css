@@ -21,6 +21,7 @@
     /* SECTION ABOUT-ME */
     
     .about-me {
+        position: relative;
         width: 28%;
         margin: 0 0 0 0;
         padding: 3% 4% 2% 4%;
@@ -28,32 +29,38 @@
     }
     
     .my-photo {
-        width: 55%;
+        width: 50%;
         /*box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);*/
     }
     
     h2 {
-        font-family: 'Great Vibes', cursive;
-        font-size: 3rem;
-        color: rgba(189, 184, 223, 0.3);
+        position: absolute;
+        left: 200px;
+        top: 150px;
+        text-align: right;
+        font-family: 'Mrs Saint Delafield', cursive;
+        font-size: 5rem;
+        transform: rotate(-90deg);
+        color: rgba(252, 114, 96, 0.8);
         /*background: -webkit-linear-gradient(230deg, #bdb8df 12%, #1c2bffad, #d453fcf3 70%, #bdb8df 90%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;*/
         text-align: center;
     }
-    
-    span {
-        font-size: 4rem;
-    }
+    /*span {
+        font-size: 5rem;
+    }*/
     
     h1 {
-        font-size: 1.7rem;
-        color: #bdb8df;
+        padding-top: 1.4rem;
+        font-size: 2.4rem;
+        color: #fff;
+        letter-spacing: 10px;
     }
     
     .caption {
         padding: 1rem 0 0 0;
-        color: #bdb8df;
+        color: rgba(252, 114, 96, 1);
         font-size: 1.3rem;
         font-style: italic;
         text-align: end;
@@ -97,7 +104,7 @@
     
     a {
         text-decoration: none;
-        color: rgb(65, 45, 252);
+        color: rgb(147, 36, 250);
     }
     
     .social-networks {
@@ -113,7 +120,10 @@
             padding: 40px 40px 0 40px;
         }
         h2 {
-            font-size: 2.6rem;
+            position: absolute;
+            left: 160px;
+            top: 130px;
+            font-size: 5rem;
         }
         span {
             font-size: 3.8rem;
@@ -134,13 +144,17 @@
             width: 45%;
         }
         h2 {
-            font-size: 2.4rem;
+            position: absolute;
+            left: 120px;
+            top: 90px;
+            font-size: 4rem;
         }
         span {
             font-size: 3.6rem;
         }
         h1 {
-            font-size: 1.3rem;
+            padding-top: 0.8rem;
+            font-size: 1.8rem;
         }
         h3 {
             font-size: 2rem;
@@ -166,13 +180,17 @@
             width: 45%;
         }
         h2 {
-            font-size: 3rem;
+            position: absolute;
+            left: 120px;
+            top: 90px;
+            font-size: 4rem;
         }
         span {
             font-size: 4rem;
         }
         h1 {
-            font-size: 1.6rem;
+            padding-top: 0.8rem;
+            font-size: 1.8rem;
         }
         .caption {
             font-size: 1.1rem;
