@@ -35,7 +35,9 @@
     h2 {
         font-family: 'Great Vibes', cursive;
         font-size: 4rem;
-        color: rgba(0, 0, 255, 0.3);
+        background: -webkit-linear-gradient(230deg, #bdb8df 12%, #1c2bffad, #d453fcf3 70%, #bdb8df 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         text-align: center;
     }
     
@@ -46,7 +48,7 @@
     
     .caption {
         padding: 1rem 0 0 0;
-        color: rgba(0, 0, 255, 0.6);
+        color: blue;
         font-size: 1.6rem;
         font-style: italic;
         text-align: end;
