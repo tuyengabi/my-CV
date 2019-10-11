@@ -93,6 +93,14 @@
         color: rgb(65, 45, 252);
     }
     
+    .social-networks {
+        padding-top: 2%;
+    }
+    
+    .social-icon {
+        height: 46px;
+    }
+    
     @media screen and (min-width: 1367px) and (max-width: 1600px) {
         .about-me {
             padding: 40px 40px 0 40px;
