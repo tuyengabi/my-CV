@@ -1,485 +1,431 @@
-    * {
-        margin: 0;
-        padding: 0;
-        font-size: 62,5%;
-    }
-    
-    main {
-        background-color: #bdb8df;
-        color: navy;
-        display: flex;
-        height: 100vh;
-        font-family: 'Source Sans Pro', sans-serif;
-    }
-    
-    @media screen and (min-width: 0px) and (max-width: 900px) {
-        main {
-            height: auto;
-            display: flex;
-            flex-direction: column;
-        }
-    }
-    /* SECTION ABOUT-ME */
-    
+* {
+  margin: 0; 
+  padding: 0;
+  font-size: 62,5%;
+}
+
+main {
+  background-color: #bdb8df;
+  color: navy;
+  display: flex;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  main {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* SECTION ABOUT-ME */
+
+.about-me {
+  position: relative;
+  width: 28%;
+  background-color: navy;
+}
+
+.my-photo {
+  width: 50%;
+  /*box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);*/
+}
+
+h2 {
+  position: absolute;
+  left: 200px;
+  top: 130px;
+  text-align: right;
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 5rem;
+  transform: rotate(-90deg);
+  color:rgb(255,69,0, 0.7); 
+  text-align: center;
+  /*background: -webkit-linear-gradient(230deg, #bdb8df 12%, #1c2bffad, #d453fcf3 70%, #bdb8df 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+/*span {
+font-size: 5rem;
+}*/
+
+  h1 {
+    font-size: 2.4rem;
+    color: #fff;
+    letter-spacing: 10px;
+  }
+
+  .caption {
+    color: #fff; 
+    font-size: 1.3rem;
+    font-style: italic;
+    text-align: end;
+  }
+
+  .about {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .contact {
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 8px;
+  }
+
+  .contact-title {
+    color: #958fbb;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .contact-item {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .contact-icon {
+    height: 1.7rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(147, 36, 250);
+  }
+
+  .social-networks {
+  }
+
+  .social-icon {
+    height: 46px;
+  }
+
+  @media screen and (min-width: 1367px) and (max-width: 1600px) {
     .about-me {
-        position: relative;
-        width: 28%;
-        margin: 0 0 0 0;
-        padding: 3% 4% 2% 4%;
-        background-color: navy;
     }
-    
-    .my-photo {
-        width: 50%;
-        /*box-shadow: 3px 3px 20px 1px rgba(102, 85, 255, 0.2);*/
-    }
-    
     h2 {
-        position: absolute;
-        left: 200px;
-        top: 130px;
-        text-align: right;
-        font-family: 'Mrs Saint Delafield', cursive;
-        font-size: 5rem;
-        transform: rotate(-90deg);
-        color: rgba(252, 114, 96, 0.8);
-        text-align: center;
-        /*background: -webkit-linear-gradient(230deg, #bdb8df 12%, #1c2bffad, #d453fcf3 70%, #bdb8df 90%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;*/
+      position: absolute;
+      left: 160px;
+      top: 130px;
+      font-size: 5rem;
     }
-    /*span {
-        font-size: 5rem;
-    }*/
-    
-    h1 {
-        padding-top: 1.4rem;
-        font-size: 2.4rem;
-        color: #fff;
-        letter-spacing: 10px;
+    span {
+      font-size: 3.8rem;
     }
-    
     .caption {
-        padding: 1rem 0 0 0;
-        color: rgba(252, 114, 96, 1);
-        font-size: 1.3rem;
-        font-style: italic;
-        text-align: end;
+      font-size: 1.2rem;
     }
-    
     .about {
-        font-size: 1.1rem;
-        padding: 1rem 0 0 0;
-        color: rgba(255, 255, 255, 0.6);
+      font-size: 1rem;
     }
-    
-    .contact {
-        padding: 3rem 0 0 0;
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1366px) {
+    .about-me {
+      padding: 2% 2% 0 2%;
     }
-    
+    .my-photo {
+      width: 40%;
+    }
+    h2 {
+      position: absolute;
+      top:14%;
+      left: 26%;
+      font-size: 3.2rem;
+    }
+    span {
+      font-size: 3.6rem;
+    }
+    h1 {
+      font-size: 1.4rem;
+    }
     h3 {
-        font-family: 'Great Vibes', cursive;
-        font-size: 2.2rem;
+      font-size: 1.2rem;
     }
-    
+    .caption {
+      padding: 3% 0 3% 0;
+      font-size: 1rem;
+    }
+    .about {
+      font-size: 1rem;
+    }
+    .contact {
+      padding-top: 6%;
+    }
     .contact-title {
-        color: #958fbb;
+      display: none;
     }
-    
-    ul {
-        list-style-type: none;
-        padding-top: 5%;
-    }
-    
     .contact-item {
-        display: flex;
-        font-size: 1.1rem;
-        font-weight: bold;
-        color: rgba(255, 255, 255, 0.6);
+      font-size: 0.9rem;
     }
-    
     .contact-icon {
-        height: 1.7rem;
-        padding-right: 0.7rem;
+      height: 24px;
     }
-    
-    a {
-        text-decoration: none;
-        color: rgb(147, 36, 250);
-    }
-    
-    .social-networks {
-        padding-top: 2%;
-    }
-    
     .social-icon {
-        height: 46px;
+      height: 34px;
     }
-    
-    @media screen and (min-width: 1367px) and (max-width: 1600px) {
-        .about-me {
-            padding: 40px 40px 0 40px;
-        }
-        h2 {
-            position: absolute;
-            left: 160px;
-            top: 130px;
-            font-size: 5rem;
-        }
-        span {
-            font-size: 3.8rem;
-        }
-        .caption {
-            font-size: 1.2rem;
-        }
-        .about {
-            font-size: 1rem;
-        }
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    .about-me {
+      height: auto;
+      width: auto;
     }
-    
-    @media screen and (min-width: 901px) and (max-width: 1366px) {
-        .about-me {
-          padding: 20px 20px 0 20px;
-        }
-        .my-photo {
-            width: 45%;
-        }
-        h2 {
-            position: absolute;
-            left: 125px;
-            top: 80px;
-            font-size: 2.6rem;
-        }
-        span {
-            font-size: 3.6rem;
-        }
-        h1 {
-            padding-top: 0.4rem;
-            font-size: 1.2rem;
-        }
-        h3 {
-            font-size: 1.4rem;
-        }
-        .caption {
-            font-size: 1rem;
-        }
-        .about {
-            font-size: 1rem;
-        }
-        .contact {
-          padding: 0 0 0 0;
-        }
-        .contact-title {
-          display: none;
-        }
-        .contact-item {
-            font-size: 0.9rem;
-        }
-        .social-icon {
-            height: 30px;
-        }
+    .my-photo {
+      width: 45%;
     }
-    
-    @media screen and (min-width: 0px) and (max-width: 900px) {
-        .about-me {
-            height: auto;
-            width: auto;
-            padding: 50px 30px 50px 30px;
-        }
-        .my-photo {
-            width: 45%;
-        }
-        h2 {
-            position: absolute;
-            left: 30vw;
-            top: 22vw;
-            font-size: 3rem;
-        }
-        span {
-            font-size: 4rem;
-        }
-        h1 {
-            padding-top: 0.8rem;
-            font-size: 1.4rem;
-        }
-        .caption {
-            font-size: 1.1rem;
-        }
-        .about {
-            font-size: 1rem;
-        }
-        .contact-item {
-            font-size: 1rem;
-        }
+    h2 {
+      position: absolute;
+      left: 30vw;
+      top: 22vw;
+      font-size: 3rem;
     }
-    /* SECTION SKILL */
-    
+    span {
+      font-size: 4rem;
+    }
+    h1 {
+      font-size: 1.4rem;
+    }
+    .caption {
+      font-size: 1.1rem;
+    }
+    .about {
+      font-size: 1rem;
+    }
+    .contact-item {
+      font-size: 1rem;
+    }
+  }
+  /* SECTION SKILL */
+
+  .skill {
+    width: 20%;
+  }
+
+  .skill-list {
+  }
+
+  .skill-item {
+    display: flex;
+  }
+
+  .skill-icon {
+    height: 56px;
+  }
+
+  .skill-bar {
+    height: 35px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  @media screen and (min-width: 1367px) and (max-width: 1600px) {
     .skill {
-        width: 20%;
-        margin: 0 2% 0 2%;
-        padding: 2% 1% 1% 2%;
     }
-    
-    .skill-list {
-        padding-top: 5%;
-    }
-    
-    .skill-item {
-        display: flex;
-    }
-    
     .skill-icon {
-        height: 56px;
+      height: 50px;
     }
-    
     .skill-bar {
-        padding: 2.5% 0 0 5%;
-        height: 35px;
+      height: 30px;
     }
-    
-    .hide {
-        display: none;
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1366px) {
+    .skill {
     }
-    
-    @media screen and (min-width: 1367px) and (max-width: 1600px) {
-        .skill {
-            padding: 50px 0 0 10px;
-        }
-        .skill-icon {
-            height: 50px;
-        }
-        .skill-bar {
-            padding-top: 10px;
-            height: 30px;
-        }
+    .skill-icon {
+      height: 50px;
     }
-    
-    @media screen and (min-width: 901px) and (max-width: 1366px) {
-        .skill {
-            padding: 20px 0 0 0;
-        }
-        .skill-icon {
-            height: 50px;
-        }
-        .skill-bar {
-            height: 28px;
-        }
+    .skill-bar {
+      height: 28px;
     }
-    
-    @media screen and (min-width: 0px) and (max-width: 900px) {
-        .skill {
-            height: auto;
-            width: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 100px 0 50px 0;
-            margin: auto;
-        }
-        .skill-list {
-            padding: 30px;
-        }
-        .skill-item {
-            margin-left: -20px;
-        }
-        .skill-icon {
-            height: 46px;
-        }
-        .skill-bar {
-            height: 28px;
-        }
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    .skill {
+      height: auto;
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
-    /* SECTION EXPERIENCE */
-    
+    .skill-list {
+    }
+    .skill-item {
+    }
+    .skill-icon {
+      height: 46px;
+    }
+    .skill-bar {
+      height: 28px;
+    }
+  }
+  /* SECTION EXPERIENCE */
+
+  .experience {
+    width: 30%;
+  }
+
+  .proj-list {
+    font-size: 1.2rem;
+  }
+
+  .exp-title {
+  }
+
+  .exp-list {
+    font-size: 1.1rem;
+  }
+
+  .exp-item {
+  }
+
+  .info {
+    border-left: 1px solid navy;
+  }
+
+  @media screen and (min-width: 1367px) and (max-width: 1600px) {
     .experience {
-        width: 30%;
-        margin: 0 0.5% 0 0.5%;
-        padding: 2% 1% 1% 2%;
     }
-    
     .proj-list {
-        padding-top: 0;
-        font-size: 1.2rem;
+      font-size: 1rem;
     }
-    
-    .exp-title {
-        padding-top: 7%;
-    }
-    
     .exp-list {
-        padding-top: 1%;
-        font-size: 1.1rem;
+      font-size: 1rem;
     }
-    
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1366px) {
+    .experience {
+    }
+    .proj-list {
+      font-size: 0.8rem;
+    }
+    .exp-list {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    .experience {
+      height: auto;
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .proj-list {
+    }
+    .exp-title {
+    }
     .exp-item {
-        padding-top: 5%;
     }
-    
-    .info {
-        padding-left: 5%;
-        border-left: 1px solid navy;
-    }
-    
-    @media screen and (min-width: 1367px) and (max-width: 1600px) {
-        .experience {
-            padding: 50px 0 0 10px;
-        }
-        .proj-list {
-            font-size: 1rem;
-        }
-        .exp-list {
-            font-size: 1rem;
-        }
-    }
-    
-    @media screen and (min-width: 901px) and (max-width: 1366px) {
-        .experience {
-            padding: 20px 0 0 20px;
-        }
-        .proj-list {
-            font-size: 0.8rem;
-        }
-        .exp-list {
-            font-size: 0.8rem;
-        }
-    }
-    
-    @media screen and (min-width: 0px) and (max-width: 900px) {
-        .experience {
-            height: auto;
-            width: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 50px 0 50px 0;
-            margin: auto;
-        }
-        .proj-list {
-            padding: 0 30px 0 30px;
-        }
-        .exp-title {
-            padding-top: 100px;
-        }
-        .exp-item {
-            padding: 20px 50px 0 50px;
-        }
-    }
-    /* SECTION EDUCATION */
-    
+  }
+  /* SECTION EDUCATION */
+
+  .education {
+    width: 22%;
+  }
+
+  .edu-list {
+    font-size: 1.1rem;
+  }
+
+  .edu-item {
+  }
+
+  .lang-title {
+  }
+
+  .lang-item {
+    display: flex;
+  }
+
+  .lang-icon {
+    height: 50px;
+  }
+
+  .lang-bar {
+    height: 35px;
+  }
+
+  .hob-title {
+  }
+
+  .hob-section {
+    display: flex;
+  }
+
+  .hob-icon {
+    height: 3.2rem;
+  }
+
+  @media screen and (min-width: 1367px) and (max-width: 1600px) {
     .education {
-        width: 22%;
-        margin: 0 2% 0 2%;
-        padding: 2% 2% 1% 2%;
+      font-size: 1rem;
     }
-    
-    .edu-list {
-        padding-top: 0;
-        font-size: 1.1rem;
-    }
-    
-    .edu-item {
-        padding-top: 2%;
-    }
-    
     .lang-title {
-        padding-top: 7%;
     }
-    
-    .lang-item {
-        display: flex;
-        padding-top: 2%;
-    }
-    
     .lang-icon {
-        height: 50px;
+      height: 46px;
     }
-    
     .lang-bar {
-        padding: 2% 0 0 5%;
-        height: 35px;
+      height: 30px;
     }
-    
-    .hob-title {
-        padding-top: 7%;
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1366px) {
+    .education {
     }
-    
-    .hob-section {
-        display: flex;
+    .edu-item {
+      font-size: 0.8rem;
     }
-    
+    .lang-icon {
+      height: 46px;
+    }
+    .lang-bar {
+      height: 28px;
+    }
     .hob-icon {
-        height: 3.2rem;
-        padding: 0 5rem 0.5rem 0;
+      height: 40px;
     }
-    
-    @media screen and (min-width: 1367px) and (max-width: 1600px) {
-        .education {
-            padding: 50px 20px 0 0;
-            font-size: 1rem;
-        }
-        .lang-title {
-            padding-top: 30px;
-        }
-        .lang-icon {
-            height: 46px;
-        }
-        .lang-bar {
-            padding-top: 8px;
-            height: 30px;
-        }
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    .education {
+      height: auto;
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
-    
-    @media screen and (min-width: 901px) and (max-width: 1366px) {
-        .education {
-            padding: 20px 0 0 20px;
-        }
-        .edu-item {
-            font-size: 0.8rem;
-        }
-        .lang-icon {
-            height: 46px;
-        }
-        .lang-bar {
-            padding-top: 8px;
-            height: 28px;
-        }
-        .hob-icon {
-            height: 40px;
-        }
+    .edu-list {
     }
-    
-    @media screen and (min-width: 0px) and (max-width: 900px) {
-        .education {
-            height: auto;
-            width: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 50px 0 50px 0;
-            margin: auto;
-        }
-        .edu-list {
-            padding: 30px 30px 0 30px;
-        }
-        .lang-title {
-            padding-top: 100px;
-        }
-        .lang-item {
-            margin-left: -20px;
-        }
-        .lang-icon {
-            height: 46px;
-        }
-        .lang-bar {
-            height: 28px;
-        }
-        .hob-title {
-            padding-top: 100px;
-        }
-        .hob-section {
-            padding-top: 30px;
-        }
+    .lang-title {
     }
+    .lang-item {
+    }
+    .lang-icon {
+      height: 46px;
+    }
+    .lang-bar {
+      height: 28px;
+    }
+    .hob-title {
+    }
+    .hob-section {
+    }
+  }
