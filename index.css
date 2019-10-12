@@ -325,7 +325,7 @@ a {
     padding-top: 5px;
   }
   .info {
-    padding-left: 16px;
+    padding: 0 16px 0 16px;
   }
 }
 
@@ -376,8 +376,11 @@ a {
 .hob-title {
 }
 
-.hob-section {
+.hob-list {
+  padding: 0 80px 0 0px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hob-icon {
@@ -400,15 +403,24 @@ a {
 
 @media screen and (min-width: 901px) and (max-width: 1366px) {
   .education {
+    padding: 1.7% 1.7% 0 0;
   }
   .edu-item {
-    font-size: 0.8rem;
+    padding-top: 5px;
+    font-size: 0.9rem;
+  }
+  .lang-title {
+    padding-top: 15px;
   }
   .lang-icon {
-    height: 46px;
+    height: 40px;
   }
   .lang-bar {
-    height: 28px;
+    padding: 7px 0 0 7px;
+    height: 24px;
+  }
+  .hob-title {
+    padding-top: 15px;
   }
   .hob-icon {
     height: 40px;
