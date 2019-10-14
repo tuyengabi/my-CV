@@ -303,7 +303,7 @@ a {
 .exp-item {}
 
 .info {
-    padding: 10px 0 20px 20px;
+    padding: 10px 10px 20px 20px;
     border-left: 1px solid navy;
 }
 
@@ -356,6 +356,7 @@ a {
 /* SECTION EDUCATION */
 
 .education {
+    padding: 40px 0 0 0;
     width: 22%;
 }
 
@@ -365,7 +366,9 @@ a {
 
 .edu-item {}
 
-.lang-title {}
+.lang-title {
+    padding-top: 40px;
+}
 
 .lang-item {
     display: flex;
@@ -376,10 +379,13 @@ a {
 }
 
 .lang-bar {
+    padding: 7px 0 0 20px;
     height: 35px;
 }
 
-.hob-title {}
+.hob-title {
+    padding-top: 40px;
+}
 
 .hob-list {
     padding: 0 80px 0 0px;
@@ -389,7 +395,7 @@ a {
 }
 
 .hob-icon {
-    height: 3.2rem;
+    height: 4rem;
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1600px) {
