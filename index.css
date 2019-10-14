@@ -443,6 +443,7 @@ a {
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
     .education {
+        padding: 100px 30px 100px 30px;
         height: auto;
         width: auto;
         display: flex;
@@ -460,5 +461,10 @@ a {
         height: 28px;
     }
     .hob-title {}
-    .hob-section {}
+    .hob-list {
+        padding: 0 20px 0 10px;
+    }
+    .hob-icon {
+        height: 3.4rem;
+    }
 }
