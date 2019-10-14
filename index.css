@@ -177,23 +177,25 @@ a {
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
     .about-me {
+        padding: 30px 30px 30px 30px;
         height: auto;
         width: auto;
     }
     .my-photo {
-        width: 45%;
+        width: 50%;
     }
     h2 {
         position: absolute;
-        left: 30vw;
+        left: 32vw;
         top: 22vw;
-        font-size: 3rem;
+        font-size: 3.4rem;
     }
     span {
         font-size: 4rem;
     }
     h1 {
-        font-size: 1.4rem;
+        font-size: 2rem;
+        letter-spacing: 8px;
     }
     .caption {
         font-size: 1.1rem;
