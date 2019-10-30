@@ -24,7 +24,7 @@
     /* Fallback color */
     background-image: linear-gradient(rgba(0, 0, 128, 0.5),
             rgba(255, 0, 200, 0.2)),
-        url("images/city.jpg");
+        url("../images/city.jpg");
     background-size: cover;
     /* background-color: rgba(0, 0, 0, 0.8); */
     /* Black w/ opacity */
@@ -33,7 +33,7 @@
 /* Modal Content */
 .modal-content {
     box-sizing: border-box;
-    background-image: url("images/Stars-color.gif");
+    background-image: url("../images/Stars-color.gif");
     opacity: 94%;
     margin: 4% auto auto auto;
     padding: 22px;
