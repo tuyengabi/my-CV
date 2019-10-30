@@ -98,6 +98,10 @@ ul {
     height: 1.7rem;
 }
 
+.contact-link {
+    padding: 3px 0 0 5px;
+}
+
 a {
     text-decoration: none;
     color: rgb(147, 36, 250);
