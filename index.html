@@ -248,7 +248,28 @@
         <!-- Modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
-            <p>Some text in the Modal..</p>
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">Prénom Nom:</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Votre prénom">
+
+                    <label for="lname">Email:</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Votre email">
+
+                    <label for="country">Subjet:</label>
+                    <select id="country" name="country">
+                        <option value="australia">Embauche</option>
+                        <option value="canada">Free-lance</option>
+                        <option value="usa">Poser des question</option>
+                    </select>
+
+                    <label for="subject">Messages:</label>
+                    <textarea id="subject" name="subject" placeholder="Votre messages.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
         </div>
 
     </div>
