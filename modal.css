@@ -33,7 +33,8 @@
 /* Modal Content */
 .modal-content {
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url("images/Stars-color.gif");
+    opacity: 94%;
     margin: 4% auto auto auto;
     padding: 22px;
     width: 66%;
@@ -88,7 +89,7 @@ input[type=submit]:hover {
 .formula-content {
     box-sizing: border-box;
     border-radius: 5px;
-    background-color: rgb(255, 69, 0, 0.2);
+    background: linear-gradient( rgb(255, 69, 0, 0.2), rgba(47, 3, 190, 0.2));
     padding: 20px;
     width: 100%;
     height: 100%;
@@ -97,7 +98,7 @@ input[type=submit]:hover {
 }
 
 .field {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
 }
 
