@@ -248,23 +248,19 @@
         <!-- Modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
-            <div class="container">
+            <div class="formula-content">
                 <form action="/action_page.php">
                     <label for="fname">Prénom Nom:</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Votre prénom">
+                    <input class="field" type="text" id="fname" name="firstname" placeholder="Votre prénom">
 
                     <label for="lname">Email:</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Votre email">
+                    <input class="field" type="text" id="email" name="email" placeholder="Votre email">
 
                     <label for="country">Subjet:</label>
-                    <select id="country" name="country">
-                        <option value="australia">Embauche</option>
-                        <option value="canada">Free-lance</option>
-                        <option value="usa">Poser des question</option>
-                    </select>
+                    <input class="field" type="text" id="subjet" name="subject" placeholder="Votre subjet">
 
                     <label for="subject">Messages:</label>
-                    <textarea id="subject" name="subject" placeholder="Votre messages.."
+                    <textarea class="field" id="subject" name="subject" placeholder="Votre messages.."
                         style="height:200px"></textarea>
 
                     <input type="submit" value="Envoyer">

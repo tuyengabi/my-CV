@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/* MODAL BOX */
+
 .modal {
     display: none;
     /* Hidden by default */
@@ -33,9 +35,10 @@
 .modal-content {
     background-color: rgba(0, 0, 0, 0.7);
     margin: 4% auto auto auto;
-    padding: 20px;
+    padding: 22px;
     width: 66%;
     height: 80%;
+    border-radius: 5px;
 }
 
 /* The Close Button */
@@ -53,14 +56,15 @@
     cursor: pointer;
 }
 
+/* END MODAL BOX */
 
+/* FORM BOX */
 
 input[type=text],
-select,
 textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -69,7 +73,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: rgb(147, 36, 250);
+    background-color: navy;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -78,10 +82,10 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #dddddd;
+    background-color: rgb(147, 36, 250);
 }
 
-.container {
+.formula-content {
     border-radius: 5px;
     background-color: rgb(255, 69, 0, 0.2);
     padding: 20px;
@@ -90,3 +94,10 @@ input[type=submit]:hover {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.field {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+/* END FORM BOX */
