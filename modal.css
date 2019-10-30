@@ -1,10 +1,9 @@
-* {
-    box-sizing: border-box;
-}
+
 
 /* MODAL BOX */
 
 .modal {
+    
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -33,6 +32,7 @@
 
 /* Modal Content */
 .modal-content {
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.7);
     margin: 4% auto auto auto;
     padding: 22px;
@@ -86,6 +86,7 @@ input[type=submit]:hover {
 }
 
 .formula-content {
+    box-sizing: border-box;
     border-radius: 5px;
     background-color: rgb(255, 69, 0, 0.2);
     padding: 20px;
