@@ -1,3 +1,6 @@
+<?php  session_start(); ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,11 +37,11 @@
                     </li>
                     <li class="contact-item">
                         <img class="contact-icon" src="asset/images/icon-email.png" alt="icon-email">
-                        <p class="contact-link"><a id="myBtn" href="mailto:suoi.style@gmail.com">Vous m'envoyer un email</a></p>
+                        <p class="contact-link"><a id="myBtn" href="#">Vous m'envoyer un email</a></p>
                     </li>
                     <li class="contact-item">
                         <img class="contact-icon" src="asset/images/icon-phone.png" alt="icon-phone">
-                        <p class="contact-link"><a href="tel:+33782268789">Vous m'appeller</a></p>
+                        <p class="contact-link"><a href="#">Vous m'appeller</a></p>
                     </li>
                     <li class="contact-item">
                         <img class="contact-icon" src="asset/images/icon-home.png" alt="icon-home">
@@ -246,10 +249,11 @@
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
+   
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="formula-content">
-                <form action="verif.php">
+            <form class="form-signin" method="POST" action="verif.php">
                     <label for="fname">Prénom Nom:</label>
                     <input class="field" type="text" id="fname" name="firstname" placeholder="Votre prénom">
 
@@ -260,15 +264,15 @@
                     <input class="field" type="text" id="subjet" name="subject" placeholder="Votre subjet">
 
                     <label for="subject">Messages:</label>
-                    <textarea class="field" id="subject" name="subject" placeholder="Votre messages.."
+                    <textarea class="field" id="subject" name="message" placeholder="Votre messages.."
                         style="height:200px"></textarea>
-
-                    <input type="submit" value="Envoyer">
+                        <button type="submit" class="pull-xs-right tm-submit-btn">Envoyer</button>  
                 </form>
             </div>
         </div>
 
     </div>
+</form>
 
     <script src="asset/js/main.js"></script>
 </body>
