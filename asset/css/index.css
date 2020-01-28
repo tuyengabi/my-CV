@@ -20,7 +20,6 @@ main {
     }
 }
 
-
 /* SECTION ABOUT-ME */
 
 .about-me {
@@ -212,7 +211,6 @@ a {
     }
 }
 
-
 /* SECTION SKILL */
 
 .skill {
@@ -283,7 +281,6 @@ a {
     }
 }
 
-
 /* SECTION EXPERIENCE */
 
 .experience {
@@ -300,15 +297,21 @@ a {
     padding: 0 0 10px 0;
 }
 
+.por-title {
+    padding: 10px 0 0 0;
+}
+
+.por-list {
+    font-size: 1.2rem;
+}
+
 .exp-title {
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .exp-list {
     font-size: 1.1rem;
 }
-
-.exp-item {}
 
 .info {
     padding: 10px 10px 20px 20px;
@@ -357,10 +360,19 @@ a {
         flex-direction: column;
     }
     .proj-list {}
-    .exp-title {}
+    .por-title {
+        padding: 50px 0 0 0;
+    }
+    .por-list {
+        font-size: 1.2rem;
+        padding: 20px 0 0 0;
+        text-align: left;
+    }
+    .exp-title {
+        padding: 100px 0 30px 0;
+    }
     .exp-item {}
 }
-
 
 /* SECTION EDUCATION */
 
