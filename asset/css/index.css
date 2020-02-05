@@ -8,8 +8,14 @@ main {
     background-color: #bdb8df;
     color: navy;
     display: flex;
-    height: 100vh;
+    height: 1100px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1366px) {
+    main {
+        height: 840px;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 900px) {
@@ -19,6 +25,7 @@ main {
         flex-direction: column;
     }
 }
+
 
 /* SECTION ABOUT-ME */
 
@@ -211,6 +218,7 @@ a {
     }
 }
 
+
 /* SECTION SKILL */
 
 .skill {
@@ -281,6 +289,7 @@ a {
     }
 }
 
+
 /* SECTION EXPERIENCE */
 
 .experience {
@@ -298,15 +307,16 @@ a {
 }
 
 .por-title {
-    padding: 10px 0 0 0;
+    padding: 40px 0 0 0;
 }
 
 .por-list {
+    padding: 20px 0 10px 0;
     font-size: 1.2rem;
 }
 
 .exp-title {
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 .exp-list {
@@ -342,7 +352,7 @@ a {
         font-size: 0.9rem;
     }
     .exp-title {
-        padding-top: 20px;
+        padding-top: 30px;
     }
     .exp-list {
         font-size: 0.9rem;
@@ -380,6 +390,7 @@ a {
     }
     .exp-item {}
 }
+
 
 /* SECTION EDUCATION */
 
@@ -430,7 +441,9 @@ a {
     .education {
         font-size: 1rem;
     }
-    .lang-title {}
+    .lang-title {
+        padding-top: 40px;
+    }
     .lang-icon {
         height: 46px;
     }
@@ -448,7 +461,7 @@ a {
         font-size: 0.9rem;
     }
     .lang-title {
-        padding-top: 15px;
+        padding-top: 40px;
     }
     .lang-icon {
         height: 40px;
@@ -458,7 +471,7 @@ a {
         height: 24px;
     }
     .hob-title {
-        padding-top: 15px;
+        padding-top: 40px;
     }
     .hob-icon {
         height: 40px;
